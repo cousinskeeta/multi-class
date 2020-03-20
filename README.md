@@ -7,7 +7,7 @@ This model required web scraping and API skills, building pipelines and tuning h
 
 ## Methodology
 Our methodology to classify publicly traded stocks as overbought or oversold.
-![Image of OSEMN](https://github.com/cousinskeeta/LearnCo/blob/master/mod5/multi-class-model/Images/OSEMN.png)
+![Image of OSEMN](https://raw.githubusercontent.com/cousinskeeta/multi-class/master/OSEMN.png)
 
 ## Dataset
 The dataset combines fundamental and indicator data for the publicly trades stocks predicting if the stocks are currently overbought or oversold, or neither. * This data was updated on 03/07/2020. )`Stock_Dataset_13.csv`
@@ -30,13 +30,13 @@ Support Vector Machine, Random Forest Classifier, KNN Classifier, Decision Tree 
 ('target')
 
 ## PCA
-![Image of Feature Correlation](https://github.com/cousinskeeta/LearnCo/blob/master/mod5/multi-class-model/Images/feature_correlation.png)
-![Image of Priciple Component Correlation](https://github.com/cousinskeeta/LearnCo/blob/master/mod5/multi-class-model/Images/pca_features.png)
+![Image of Feature Correlation](https://raw.githubusercontent.com/cousinskeeta/multi-class/master/feature_correlation.png)
+![Image of Priciple Component Correlation](https://raw.githubusercontent.com/cousinskeeta/multi-class/master/pca_features.png)
 
 ## Final Model
 The comparison of all models against our baseline model shows us which model performed the best. This is done by assessing each model's test accuracy. By combining grid search and cross-validataion to fine tune our model, we now are able to accurately classify publicly traded stocks, based on ten principal component analysis instead of the original 29 in the dataset. We can choose from two of our top tuned models that share an accuracy score of 99.1%. 38% of oversold stocks were correctly classified. 60% of overbought stocks were also classified correctly. That gives us about 98% correctly classified based on the confusion matrix. We only have a 1.4% error rate of classification.
 
-![Image of Priciple Component Correlation](https://github.com/cousinskeeta/LearnCo/blob/master/mod5/multi-class-model/Images/MLP_.png)
+![Image of Priciple Component Correlation](https://raw.githubusercontent.com/cousinskeeta/multi-class/master/MLP_.png)
 
 
 ## Presentation:
